@@ -30,7 +30,7 @@ Convert **YouTube videos** or **channels** into well-written blog posts using th
 
 - **Frontend**: Streamlit
 - **Backend**: Python
-- **LLM**: OpenAI / Gemini (modify as per your setup)
+- **LLM**: Groq
 - **Deployment**: Railway
 - **Containerization**: Docker
 
