@@ -1,0 +1,140 @@
+/* Main background and text colors */
+body {
+    background-color: #f5f7fa;
+    color: #333;
+}
+
+/* Title styling */
+.title-container {
+    background: linear-gradient(135deg, #6e8efb, #a777e3);
+    padding: 1.5rem;
+    border-radius: 10px;
+    margin-bottom: 2rem;
+    color: white;
+}
+
+.main-title {
+    color: white;
+    margin-bottom: 0.5rem;
+}
+
+.subtitle {
+    color: rgba(255, 255, 255, 0.9);
+    font-size: 1.1rem;
+}
+
+/* Sidebar styling */
+.sidebar-header {
+    background: linear-gradient(135deg, #6e8efb, #a777e3);
+    padding: 1rem;
+    border-radius: 10px;
+    margin-bottom: 1.5rem;
+    color: white;
+}
+
+.sidebar-header h2 {
+    color: white;
+}
+
+/* Form elements */
+.stTextInput>div>div>input {
+    border-radius: 8px;
+    padding: 10px;
+}
+
+.stButton>button {
+    width: 100%;
+    border-radius: 8px;
+    padding: 10px;
+    background: linear-gradient(135deg, #6e8efb, #a777e3);
+    color: white;
+    border: none;
+    font-weight: bold;
+}
+
+.stButton>button:hover {
+    background: linear-gradient(135deg, #5d7de8, #9666d6);
+    color: white;
+}
+
+/* Result container */
+.blog-container {
+    background: white;
+    padding: 2rem;
+    border-radius: 10px;
+    box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+    margin-bottom: 1.5rem;
+}
+
+.result-header {
+    margin: 2rem 0 1rem 0;
+}
+
+/* Status box */
+.status-box {
+    background: #fff8e6;
+    padding: 1rem;
+    border-radius: 8px;
+    border-left: 4px solid #ffc107;
+    margin-bottom: 1rem;
+}
+
+.status-text {
+    font-weight: bold;
+    margin-bottom: 0.5rem;
+}
+
+.status-note {
+    font-size: 0.9rem;
+    color: #666;
+}
+
+/* Info section */
+.info-section {
+    background: white;
+    padding: 1.5rem;
+    border-radius: 10px;
+    margin-top: 2rem;
+    box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+}
+
+.steps-container {
+    display: flex;
+    justify-content: space-between;
+    flex-wrap: wrap;
+    margin-top: 1rem;
+}
+
+.step {
+    flex: 1;
+    min-width: 200px;
+    margin: 0.5rem;
+    padding: 1rem;
+    background: #f8f9fa;
+    border-radius: 8px;
+}
+
+.step h4 {
+    color: #6e8efb;
+    margin-bottom: 0.5rem;
+}
+
+.step p {
+    color: #666;
+    font-size: 0.9rem;
+}
+
+/* Download button */
+.stDownloadButton>button {
+    background: linear-gradient(135deg, #4CAF50, #2E7D32);
+    color: white;
+    border: none;
+    border-radius: 8px;
+    padding: 10px 15px;
+    font-weight: bold;
+}
+
+.stDownloadButton>button:hover {
+    background: linear-gradient(135deg, #43A047, #1B5E20);
+    color: white;
+}
